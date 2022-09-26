@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+    font-family: Lato;
+   
+}
+.container{
+    margin: 0 auto;
+    max-width: 810px;
+}
+.first{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 59px;
+    margin-bottom: 50px;  
+}
+
+img{
+    margin-bottom: 30px;
+    border-radius: 4px; 
+    margin-bottom: 30px; 
+}
+.inform{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 150%;
+}
+.text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.text_2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.lesson{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 150%;
+    padding-left: 60px;
+
+}
+.block{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+ul{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+.fin{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 100px;
+}
+
+.middle,.top{
+    background-color: cornflowerblue;
+    max-width: 1400px;
+}
+.middle__container{
+    background-color: coral;
+}
+.top__container{
+    background-color: coral;
+}
+[class*="__container"]{
+    max-width: 810px;
+    margin: 0 auto;
+}
+.page{}
+.page__container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.page__background{
+    margin-top: 40px;
+    padding: 15px;
+    background-color: rgba(165, 42, 42, 0.575);
+}
+.image{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.image__container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 15px;
+    background-image: url("../img/image\(2\).jpg");
+}
+image2{
+    max-width: 1500px;
+}
+.image2__container{
+    padding: 15px;
+    height: 800px;
+    background-image:url("../img/1571307283_photo_50298.jpg") ;
+    background-size: 420px;
+    background-repeat: repeat;
+}
